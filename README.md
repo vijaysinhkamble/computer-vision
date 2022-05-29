@@ -2,6 +2,7 @@
 ## Table of contents
 
 - [Up and running](#Up-and-running)
+- [Setuptools & Pip](#Setuptools-&-Pip)
 
 ## Up and running
 
