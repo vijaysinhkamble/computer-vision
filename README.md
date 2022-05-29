@@ -3,6 +3,7 @@
 
 - [Up and running](#Up-and-running)
 - [Setuptools & Pip](#setuptools--pip)
+- [Up and running](#Pipenv--Virtual-Environments)
 
 ## Up and running
 
@@ -76,7 +77,7 @@ However, when using virtual environments (described below), you don’t need to 
 <br />
  
  
- **Pipenv & Virtual Environments**
+## Pipenv & Virtual Environments
 
 Make sure you’ve got Python & pip
 
