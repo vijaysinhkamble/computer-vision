@@ -3,7 +3,7 @@
 
 - [Up and running](#Up-and-running)
 - [Setuptools & Pip](#setuptools--pip)
-- [Up and running](#Pipenv--Virtual-Environments)
+- [Pipenv & Virtual Environments](#Pipenv--Virtual-Environments)
 
 ## Up and running
 
