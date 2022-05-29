@@ -5,13 +5,13 @@
 
 ------------------------------------------------------------------------
 
-
 - I would strongly recommend that you install the tools and libraries described in the guides below before you start building Python applications for real-world use.
 - In particular, you should always install Setuptools, Pip, and Virtualenv — they make it much easier for you to use other third-party Python libraries. 
 <br />
 
 
 **Installing Python 3 on Linux**
+
 This document describes how to install Python 3.10 on Ubuntu 22.04.
 
 - There’s a good chance that you already have Python on your linux machine. If so, you do not need to install or configure anything else to use Python.
@@ -381,9 +381,6 @@ Use the shell:
     $ pipenv shell
     Loading .env environment variables...
     Launching subshell in virtual environment. Type 'exit' or 'Ctrl+D' to return.
-    $ ▯
+  
 
-☤ Documentation
----------------
 
-Documentation resides over at [pipenv.pypa.io](https://pipenv.pypa.io/en/latest/).
