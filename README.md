@@ -1,4 +1,18 @@
-**Up and runningwith Python 3 on Linux** 
+## Table of contents
+
+- [Up and running](#Up and running)
+- [Status](#status)
+- [What's included](#whats-included)
+- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [Community](#community)
+- [Versioning](#versioning)
+- [Creators](#creators)
+- [Thanks](#thanks)
+- [Copyright and license](#copyright-and-license)
+
+### Up and running 
 This document describes how to install Python 3.10 on Ubuntu 22.04.
 
 [![image](https://img.shields.io/pypi/pyversions/pipenv.svg)](https://www.python.org/downloads/source/)
