@@ -1,7 +1,8 @@
 ## Table of contents
 
 - [Up and running](#Up-and-running)
-- 
+- [Setuptools & Pip](#Setuptools-&-Pip)
+
 **Up and running** 
 This document describes how to install Python 3.10 on Ubuntu 22.04.
 
