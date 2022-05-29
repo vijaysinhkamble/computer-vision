@@ -1,4 +1,5 @@
-### Installation
+**Up and runningwith Python 3 on Linux** 
+This document describes how to install Python 3.10 on Ubuntu 22.04.
 
 [![image](https://img.shields.io/pypi/pyversions/pipenv.svg)](https://www.python.org/downloads/source/)
 [![image](https://img.shields.io/pypi/l/pipenv.svg)](https://python.org/pypi/pipenv)
@@ -9,46 +10,42 @@
 - In particular, you should always install Setuptools, Pip, and Virtualenv — they make it much easier for you to use other third-party Python libraries. 
 <br />
 
-
-**Installing Python 3 on Linux:** This document describes how to install Python 3.10 on Ubuntu 22.04.
-
-- There’s a good chance that you already have Python on your linux machine. If so, you do not need to install or configure anything else to use Python.
+There’s a good chance that you already have Python on your linux machine. If so, you do not need to install or configure anything else to use Python.
 
 To see which version of Python3 you\'ve on your linux machine, open a terminal and run
 ```
 python3 --version
 ```
 
-If python3 is installed on your machine, then it shows output like below 
+If python3 is installed on your machine, then it shows output like
 `Python 3.10.4`
 
-If python3 is not installed on your machine, then it shows output like below  
-Command 'python3' not found, but can be installed with:
-sudo apt install python3
+If python3 is not installed on your machine, then it shows output like  
+`Command 'python3' not found, but can be installed with:
+sudo apt install python3`
 
 
 If you\'re using Ubuntu 22.04 or newer, then you can easily install Python 3.10 with the following commands:
-
 ```
 sudo apt-get update
 sudo apt-get install python3.10
 ```
 
 If you want to use a more current Python, we recommend using the deadsnakes PPA to install Python 3.10:
-
 ```
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
 sudo apt-get install python3.10
-```
-**Working with Python 3**
-```
-$ python3
-```
 
-This will always launch the Python 3 interpreter.
-<br />
+```
+To see whether Python3 has installed on your linux machine, open a terminal and run
+```
+python3 --version
+```
+If python3 is installed on your machine, then it shows output like
+`Python 3.10.4`
+Then you good to go.
 
 **Setuptools & Pip**
 The two most crucial third-party Python packages are setuptools and pip.
