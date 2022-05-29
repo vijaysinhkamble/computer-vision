@@ -52,7 +52,7 @@ If python3 is installed on your machine, then it shows output like
 `Python 3.10.4`
 Then you good to go.
 
-### Setuptools & Pip
+## Setuptools & Pip
 
 The two most crucial third-party Python packages are setuptools and pip.
 
