@@ -10,17 +10,15 @@
 <br />
 
 
-**Installing Python 3 on Linux**
-
-This document describes how to install Python 3.10 on Ubuntu 22.04.
+**Installing Python 3 on Linux:** This document describes how to install Python 3.10 on Ubuntu 22.04.
 
 - There’s a good chance that you already have Python on your linux machine. If so, you do not need to install or configure anything else to use Python.
 
 To see which version of Python3 you\'ve on your linux machine, open a terminal and run
-
 ```
 python3 --version
 ```
+
 If python3 is installed on your machine, then it shows output like below 
 `Python 3.10.4`
 
@@ -38,12 +36,12 @@ sudo apt-get install python3.10
 
 If you want to use a more current Python, we recommend using the deadsnakes PPA to install Python 3.10:
 
-
-`sudo apt-get install software-properties-common`
-`sudo add-apt-repository ppa:deadsnakes/ppa`
-`sudo apt-get update`
-`sudo apt-get install python3.10`
-
+```
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.10
+```
 **Working with Python 3**
 ```
 $ python3
@@ -123,61 +121,11 @@ If you\'re using Debian Buster+:
 
     sudo apt install pipenv
 
-Or, if you\'re using Fedora:
-
-    sudo dnf install pipenv
-
-Or, if you\'re using FreeBSD:
-
-    pkg install py36-pipenv
-
 Or, if you\'re using Windows:
 
     pip install --user pipenv
 
-When none of the above is an option, it is recommended to use [Pipx](https://pypi.org/p/pipx):
 
-    pipx install pipenv
-
-Otherwise, refer to the [documentation](https://pipenv.pypa.io/en/latest/#install-pipenv-today) for instructions.
-
-✨🍰✨
-
-☤ User Testimonials
--------------------
-
-**David Gang**---
-
-:   *This package manager is really awesome. For the first time I know
-    exactly what my dependencies are which I installed and what the
-    transitive dependencies are. Combined with the fact that installs
-    are deterministic, makes this package manager first class, like
-    cargo*.
-
-**Justin Myles Holmes**---
-
-:   *Pipenv is finally an abstraction meant to engage the mind instead
-    of merely the filesystem.*
-
-☤ Features
-----------
-
--   Enables truly *deterministic builds*, while easily specifying *only
-    what you want*.
--   Generates and checks file hashes for locked dependencies.
--   Automatically install required Pythons, if `pyenv` is available.
--   Automatically finds your project home, recursively, by looking for a
-    `Pipfile`.
--   Automatically generates a `Pipfile`, if one doesn\'t exist.
--   Automatically creates a virtualenv in a standard location.
--   Automatically adds/removes packages to a `Pipfile` when they are
-    un/installed.
--   Automatically loads `.env` files, if they exist.
-
-The main commands are `install`, `uninstall`, and `lock`, which
-generates a `Pipfile.lock`. These are intended to replace
-`$ pip install` usage, as well as manual virtualenv management (to
-activate a virtualenv, run `$ pipenv shell`).
 
 ### Basic Concepts
 
@@ -198,24 +146,6 @@ activate a virtualenv, run `$ pipenv shell`).
 -   `graph` will print a pretty graph of all your installed
     dependencies.
 
-### Shell Completion
-
-To enable completion in fish, add this to your configuration `~/.config/fish/completions/pipenv.fish`:
-
-    eval (env _PIPENV_COMPLETE=fish_source pipenv)
-
-There is also a [fish plugin](https://github.com/fisherman/pipenv), which will automatically
-activate your subshells for you!
-
-Alternatively, with zsh, add this to your configuration `~/.zshrc`:
-
-    eval "$(_PIPENV_COMPLETE=zsh_source pipenv)"
-
-Alternatively, with bash, add this to your configuration `~/.bashrc` or `~/.bash_profile`:
-
-    eval "$(_PIPENV_COMPLETE=bash_source pipenv)"
-
-Magic shell completions are now enabled!
 
 ☤ Usage
 -------
