@@ -52,7 +52,8 @@ If python3 is installed on your machine, then it shows output like
 `Python 3.10.4`
 Then you good to go.
 
-**Setuptools & Pip**
+### Setuptools & Pip
+
 The two most crucial third-party Python packages are setuptools and pip.
 
 Once installed, you can download, install and uninstall any compliant Python software product with a single command. It also enables you to add this network installation capability to your own Python software with very little work.
