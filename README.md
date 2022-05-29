@@ -5,19 +5,29 @@
 
 ------------------------------------------------------------------------
 
-- There’s a good chance that you already have Python on your operating system. If so, you do not need to install or configure anything else to use Python.
-- Having said that, I would strongly recommend that you install the tools and libraries described in the guides below before you start building Python applications for real-world use.
+
+- I would strongly recommend that you install the tools and libraries described in the guides below before you start building Python applications for real-world use.
 - In particular, you should always install Setuptools, Pip, and Virtualenv — they make it much easier for you to use other third-party Python libraries. 
 <br />
 
 
 **Installing Python 3 on Linux**
+This document describes how to install Python 3.10 on Ubuntu 22.04.
 
-To see which version of Python 3 you\'ve installed, open a command prompt and run
+- There’s a good chance that you already have Python on your linux machine. If so, you do not need to install or configure anything else to use Python.
+
+To see which version of Python3 you\'ve on your linux machine, open a terminal and run
 
 ```
 python3 --version
 ```
+If python3 is installed on your machine, then it shows output like below 
+`Python 3.10.4`
+
+If python3 is not installed on your machine, then it shows output like below  
+Command 'python3' not found, but can be installed with:
+sudo apt install python3
+
 
 If you\'re using Ubuntu 22.04 or newer, then you can easily install Python 3.10 with the following commands:
 
@@ -26,14 +36,13 @@ sudo apt-get update
 sudo apt-get install python3.10
 ```
 
-If you’re using another version of Ubuntu (e.g. the latest LTS release) or you want to use a more current Python, we recommend using the deadsnakes PPA to install Python 3.8:
+If you want to use a more current Python, we recommend using the deadsnakes PPA to install Python 3.10:
 
-```
-sudo apt-get install software-properties-common
-sudo add-apt-repository ppa:deadsnakes/ppa
-sudo apt-get update
-sudo apt-get install python3.10
-```
+
+`sudo apt-get install software-properties-common`
+`sudo add-apt-repository ppa:deadsnakes/ppa`
+`sudo apt-get update`
+`sudo apt-get install python3.10`
 
 **Working with Python 3**
 ```
