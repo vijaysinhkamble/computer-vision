@@ -1,7 +1,7 @@
 Installation
 ------------
 
-[![image](https://img.shields.io/pypi/pyversions/pipenv.svg)](https://python.org/pypi/pipenv)
+[![image](https://img.shields.io/pypi/pyversions/pipenv.svg)](https://www.python.org/downloads/source/)
 [![image](https://img.shields.io/pypi/l/pipenv.svg)](https://python.org/pypi/pipenv)
 
 ------------------------------------------------------------------------
