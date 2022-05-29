@@ -1,6 +1,9 @@
-## Properly Installing Python
+Installation
+------------
+
 [![image](https://img.shields.io/pypi/pyversions/pipenv.svg)](https://python.org/pypi/pipenv)
 [![image](https://img.shields.io/pypi/l/pipenv.svg)](https://python.org/pypi/pipenv)
+
 ------------------------------------------------------------------------
 
 There’s a good chance that you already have Python on your operating system. If so, you do not need to install or configure anything else to use Python. 
@@ -8,14 +11,16 @@ Having said that, I would strongly recommend that you install the tools and libr
 In particular, you should always install Setuptools, Pip, and Virtualenv — they make it much easier for you to use other third-party Python libraries. 
 <br />
 
+
 **Installing Python 3 on Linux**
-To see which version of Python 3 you have installed, open a command prompt and run
+
+To see which version of Python 3 you\'ve installed, open a command prompt and run
 
 ```
 python3 --version
 ```
 
-If you are using Ubuntu 22.04 or newer, then you can easily install Python 3.10 with the following commands:
+If you\'re using Ubuntu 22.04 or newer, then you can easily install Python 3.10 with the following commands:
 
 ```
 sudo apt-get update
@@ -28,7 +33,7 @@ If you’re using another version of Ubuntu (e.g. the latest LTS release) or you
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
-sudo apt-get install python3.8
+sudo apt-get install python3.10
 ```
 
 **Working with Python 3**
